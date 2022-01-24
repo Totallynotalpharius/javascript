@@ -1,0 +1,20 @@
+const textValue = 'hello world';
+// console.log(textValue);
+// var total = 0;
+// console.log('total:', total);
+// total = 10;
+// console.log('new total:', total);
+const myArray = [2, 4, 6, 8 , 10];
+console.log(textValue.toUpperCase());
+let txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let length = txt.length;
+let str = "Apple, Banana, Kiwi";
+let part = str.slice(7, 13);
+console.log('length', length);
+console.log('part', part);
+let text = "R99 is the best";
+let newText = text.replace("R99 is the best","Flatline Cult");
+console.log('newString', newText);
+let text1 = "      Hello World!      ";
+let text2 = text1.trim();
+console.log = ("      Hello World!      ", text1)
